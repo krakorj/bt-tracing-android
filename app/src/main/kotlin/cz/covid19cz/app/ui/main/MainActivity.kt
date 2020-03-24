@@ -18,6 +18,7 @@ class MainActivity :
     BaseActivity<ActivityMainBinding, MainVM>(R.layout.activity_main, MainVM::class) {
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        setTheme(R.style.AppTheme)
         super.onCreate(savedInstanceState)
         setSupportActionBar(toolbar)
         findNavController(R.id.nav_host_fragment).let {

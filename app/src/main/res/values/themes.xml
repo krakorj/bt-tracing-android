@@ -16,9 +16,14 @@
         <item name="android:statusBarColor">@color/colorPrimaryVariant</item>
 
         <item name="toolbarStyle">@style/Toolbar</item>
+        <item name="bottomNavigationStyle">@style/Widget.MaterialComponents.BottomAppBar</item>
         <item name="materialButtonStyle">@style/Button</item>
         <item name="materialButtonOutlinedStyle">@style/OutlinedButton</item>
         <item name="android:actionMenuTextColor">@color/white</item>
+    </style>
+
+    <style name="AppTheme.Launchscreen">
+        <item name="android:windowBackground">@drawable/launchscreen</item>
     </style>
 
     <style name="ToolbarTheme" parent="Widget.MaterialComponents.Toolbar">
